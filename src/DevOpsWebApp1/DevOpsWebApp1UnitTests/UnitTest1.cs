@@ -10,7 +10,7 @@ namespace DevOpsWebApp1UnitTests
         {
             Assert.IsTrue(true);
         }
-
+        [TestMethod]
         public void TestMethod2()
         {
             Assert.IsTrue(true);
