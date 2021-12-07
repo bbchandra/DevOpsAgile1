@@ -1,6 +1,6 @@
 #Bharath Chandra - First YAML file
 #Date 26th Nov 2021
-
+trigger: false
 stages:
   - stage: Stage1
     jobs:
