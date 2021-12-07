@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1UnitTests\\DevOpsWebApp1UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1UnitTests\\DevOpsWebApp1UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
-        "projectName": "DevOpsWebApp1",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1UnitTests\\DevOpsWebApp1UnitTests.csproj",
+        "projectName": "DevOpsWebApp1UnitTests",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1UnitTests\\DevOpsWebApp1UnitTests.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,9 +68,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

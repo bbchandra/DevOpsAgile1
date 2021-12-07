@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\DevOpsWebApp1",
+    "\\src\\DevOpsWebApp1\\DevOpsWebApp1"
   ],
-  "SelectedNode": "\\C:\\Users\\Bharath Chandra\\Source\\Repos\\DevOps1",
+  "SelectedNode": "\\src\\DevOpsWebApp1\\DevOpsWebApp1\\wwwroot",
   "PreviewInSolutionExplorer": false
 }
