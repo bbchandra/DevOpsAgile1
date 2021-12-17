@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Clkt68jxS9IuGjc2JS2mheTqyYNjOFM+puhQOlimFs9wU8Dibl5Rh1fFfuEuJ+j3aikRBXV9KGB5qF+PvBr6hQ==",
+  "dgSpecHash": "ugHVXgiYVxl03GuPLpeKIiYo4TOUZxTELxKxmVEzqOYSBQ07YiQV0TS8QNyeVu+m2xf/89pTFaX7miUL4Q3MRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }

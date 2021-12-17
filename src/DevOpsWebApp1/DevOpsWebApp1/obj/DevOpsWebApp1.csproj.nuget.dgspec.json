@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
         "projectName": "DevOpsWebApp1",
-        "projectPath": "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
-        "packagesPath": "C:\\Users\\Bharath Chandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bharath Chandra\\source\\repos\\DevOps1\\src\\DevOpsWebApp1\\DevOpsWebApp1\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\DevOpsWebApp1.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\AzureTraining\\Repos\\src\\DevOpsWebApp1\\DevOpsWebApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bharath Chandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
