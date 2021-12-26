@@ -15,7 +15,7 @@
             "value": "Welcome@1234"
         },
         "publicIpName":{
-            "value": "PIPBCVM1"
+            "value": "PIPBCBVM1"
         },
         "vmSize":{
             "value": "Standard_B1s"
