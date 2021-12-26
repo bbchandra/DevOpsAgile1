@@ -111,18 +111,6 @@
           "description": "Size of the virtual machine."
         }
       },
-      "zone": {
-        "type": "string",
-        "defaultValue": "1",
-        "allowedValues": [
-          "1",
-          "2",
-          "3"
-        ],
-        "metadata": {
-          "description": "Availability zone number."
-        }
-      },
       "adminUsername": {
         "type": "string",
         "metadata": {
@@ -138,7 +126,7 @@
       },
       "enableAcceleratedNetworking": {
         "type": "bool",
-        "defaultValue": true,
+        "defaultValue": false,
         "metadata": {
           "description": "Enable accelerated networking."
         }
@@ -179,11 +167,9 @@
         "name": "[parameters('publicIpName')]",
         "location": "[parameters('location')]",
         "sku": {
-          "name": "Standard"
+          "name": "Basic"
         },
-        "zones": [
-          "[parameters('zone')]"
-        ],
+        
         "properties": {
           "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]"
         }
@@ -224,9 +210,6 @@
         "apiVersion": "2021-07-01",
         "name": "[parameters('vmName')]",
         "location": "[parameters('location')]",
-        "zones": [
-          "[parameters('zone')]"
-        ],
         "properties": {
           "hardwareProfile": {
             "vmSize": "[parameters('vmSize')]"
