@@ -6,7 +6,7 @@
             "value": "eastus"
         },
         "vmName":{
-            "value": "bcbtraining_vm_1"
+            "value": "bcbvm1"
         },
         "adminUsername": {
             "value": "bcbvmadmin"
